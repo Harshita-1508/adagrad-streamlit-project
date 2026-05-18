@@ -2,10 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import Adagrad, Adam
-from tensorflow.keras.utils import to_categorical
+
 
 st.title("AdaGrad Optimizer Comparison App")
 
